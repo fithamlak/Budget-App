@@ -59,8 +59,8 @@
     }
   
     &--ghost {
-      color: var(--color-dark);
-      background-color: var(--color-background);
+        color: inherit;
+        background-color: transparent;
   
       &:hover,
       &:focus,
