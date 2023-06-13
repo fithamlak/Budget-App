@@ -6,6 +6,8 @@
       <%= f.submit "Log in", class: 'btn--ghost' %>
     </header>
     <main>
+
+      <%= render "devise/shared/error_messages", resource: resource %>
       <div class="field border-top border-bottom">
         <%= f.email_field :email, placeholder: 'Email', autocomplete: "email" %>
       </div>
