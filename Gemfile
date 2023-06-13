@@ -6,6 +6,12 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.5'
+gem 'sass-rails', '~> 6.0'
+gem 'sassc', '~> 2.4'
+
+
+
+
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
