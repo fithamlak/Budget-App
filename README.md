@@ -81,7 +81,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/biruk-bereka/Budget-app.git
+git clone https://github.com/fithamlak/Budget-App.git
 ```
 
 Or download the ZIP folder.
