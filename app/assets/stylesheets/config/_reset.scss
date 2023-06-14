@@ -20,7 +20,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-
   background-color: var(--color-background);
   color: var(--color-text-body);
   line-height: var(--line-height-body);
@@ -35,8 +34,8 @@ svg {
 }
 
 ul {
-    list-style: none;
-  }
+  list-style: none;
+}
 
 input,
 button,
@@ -46,14 +45,15 @@ select {
 }
 
 input {
-    width: 100%;
-    padding: var(--space-s) 0 var(--space-s) var(--space-xs);
-    border: none;
-  }
-  
-  input::placeholder {
-    color: var(--color-text-muted);
-  }
+  width: 100%;
+  padding: var(--space-s) 0 var(--space-s) var(--space-xs);
+  border: none;
+}
+
+input::placeholder {
+  color: var(--color-text-muted);
+}
+
 h1,
 h2,
 h3,
