@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 User.destroy_all
-User.create(
+user = User.create(
   name: 'Justice',
   email: 'test@test.com',
   password: 'password',
@@ -15,6 +15,20 @@ User.create(
 )
 
 Category.destroy_all
-Category.create!(name: 'Food', icon: 'food')
-Category.create!(name: 'transport', icon: 'transport')
-Category.create!(name: 'Phone', icon: 'phone')
+category = Category.create!(name: 'House Rent', icon: 'house')
+10.times do
+  expense = category.expenses.build(name: Faker::Address.street_address, amount: rand(0.5..10.0), author: user)
+  expense.save!
+end
+
+category = Category.create!(name: 'Books', icon: 'books')
+10.times do
+  expense = category.expenses.build(name: Faker::Book.title, amount: rand(0.5..10.0), author: user)
+  expense.save!
+end
+
+category = Category.create!(name: 'Movies', icon: 'movies')
+10.times do
+  expense = category.expenses.build(name: Faker::Movie.title, amount: rand(0.5..10.0), author: user)
+  expense.save!
+end
