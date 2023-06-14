@@ -4,15 +4,15 @@
     <%= form.text_field :name, placeholder: 'Name' %>
   </div>
   <div class="field border-bottom">
-    <%= form.number_field :amount, placeholder: 'Amount' %
+    <%= form.number_field :amount, placeholder: 'Amount' %>
   </div>
   <div>
-      <%= form.collection_select :category_ids, 
-                                 Category.order(name: :asc),
-                                 :id, 
-                                 :name, 
-                                 {prompt: '=== CAN SELECT MULTIPLE OPTIONS ==='}, 
-                                 { multiple: true } %>
+    <%= form.collection_select :category_ids, 
+                               Category.order(name: :asc),
+                               :id, 
+                               :name, 
+                               {prompt: '=== CAN SELECT MULTIPLE OPTIONS ==='}, 
+                               { multiple: true } %>
   </div>
   <div class='mt-5 px-1'>
     <%= form.submit class: 'btn btn--primary' %>
