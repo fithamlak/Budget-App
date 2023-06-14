@@ -12,9 +12,9 @@
           <span><%= number_to_currency(@category.total(current_user)) %></span>
         </div>
         <div class='categories--details--header border-bottom py-2'>
-          <div class='d-flex py-2'>
-            <span class='categories--details--header--icon'><%= image_tag @category&.icon %></span>
-            <span class='px-2'><%= @category&.name %></span>
+          <div class='py-2'>
+            <span><i class="fa-solid fa-house logo"></i></span>
+            <span><%= @category&.name %></span>
           </div>
           <p class='text'><%= Faker::Quote.matz %></p>
         </div>
