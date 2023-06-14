@@ -132,7 +132,7 @@ rspec spec
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Biruk Bereka**
+👤 **Fithamlak Fikrie**
 
 - GitHub: [@fithamlak](https://github.com/fithamlak)
 - LinkedIn: [Fithamlak Fikrie](https://www.linkedin.com/in/fithamlak-fikrie)
