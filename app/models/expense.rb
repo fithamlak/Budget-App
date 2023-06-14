@@ -5,7 +5,13 @@ class Expense < ApplicationRecord
   validates :amount, presence: true
 
   has_many :category_expenses, dependent: :destroy
-  has_many :categories, through: :category_expenses
-  
+  has_many :categories, through: :category_expenses, dependent: :destroy
+
   scope :ordered, -> { order(created_at: :asc) }
+
+  private
+
+  def must_have_at_least_one_category
+    errors.add(:categories, 'must have at least one') if categories.empty?
+  end
 end
