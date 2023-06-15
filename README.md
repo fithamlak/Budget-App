@@ -96,7 +96,7 @@ rails db:create
 rails db:migrate
 ```
 
-And this should open the directory with all the files from the repository on the command line, to open it in your explorer if you're using windows you can run:
+And this should open the directory with all the files from the repository on the command line, to open it in your explorer if you're using windows you can run :
 
 ```
 explorer .
