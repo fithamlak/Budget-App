@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe Category , type: :model do
+describe Category, type: :model do
   it 'is valid with a name and icon' do
     category = Category.new(name: Faker::Food.fruits, icon: '<i class="fa-solid fa-bowl-food"></i>')
     expect(category).to be_valid
