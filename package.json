@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "private": true,
+  "private": "true",
   "dependencies": {
     "@hotwired/stimulus": "^3.2.1",
     "@hotwired/turbo-rails": "^7.3.0",
@@ -16,5 +16,10 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
+  },
+  "esbuild": {
+    "external": [
+      "@hotwired/stimulus"
+    ]
   }
 }
