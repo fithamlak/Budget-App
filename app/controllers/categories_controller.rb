@@ -1,6 +1,7 @@
 class CategoriesController < ApplicationController
   def index
-    @categories = Category.all
+    @user = User.includes(:categories).find(current_user.id)
+    @categories = @user.categories
   end
 
   def new
