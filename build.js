@@ -1,3 +1,6 @@
+
+require('esbuild').initialize();
+
 const { build } = require('esbuild');
 
 build({
