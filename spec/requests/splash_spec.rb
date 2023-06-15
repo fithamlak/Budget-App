@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'Splashes', type: :request do
+describe 'Splashes ', type: :request do
   describe 'GET /index' do
     it 'returns http success' do
       get splash_index_path

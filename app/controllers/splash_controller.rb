@@ -4,6 +4,7 @@ class SplashController < ApplicationController
 
   layout 'splash'
 
+  
   def index
     redirect_to categories_path if current_user
   end

@@ -20,7 +20,7 @@ describe Expense, type: :model do
     expect(expense).to_not be_valid
   end
 
-  it 'is not valid without an author' do
+  it 'is not valid without an author ' do
     expense = category.expenses.build(name: 'Cheeseburger', amount: '2.99', author_id: '')
     expect(expense).to_not be_valid
   end

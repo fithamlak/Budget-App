@@ -5,9 +5,10 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   validates :name, presence: true
 
+
   protected
 
-  def password_required?
+  def password_required? 
     false
   end
 end

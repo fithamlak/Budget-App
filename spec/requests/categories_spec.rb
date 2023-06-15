@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'Categories', type: :request do
+describe 'Categories ', type: :request do
   describe 'GET /index' do
     context 'when user is not signed in' do
       it 'redirects to the sign-in page' do

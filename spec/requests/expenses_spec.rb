@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Expenses', type: :request do
+RSpec.describe 'Expenses ', type: :request do
   describe 'GET /new' do
     let(:user) do
       User.create(
