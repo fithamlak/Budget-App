@@ -1,6 +1,6 @@
 class ExpensesController < ApplicationController
   before_action :set_category, only: %i[index new create]
-  
+
   def index
     @expenses = @category.expenses
   end
