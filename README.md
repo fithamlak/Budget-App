@@ -126,8 +126,7 @@ rspec spec
 
 ### Deployment
 
-  - [ExpenseTracker](https://expense-tracker-nl4s.onrender.com/)
-  - [Watch](https://www.loom.com/share/dddebb485d914149a7ccce3efc46ccab?t=15&sid=2d66fcb8-83e9-4e0f-8885-6501f799b30a)
+  - [ExpenseTracker live demo](https://expense-tracker-nl4s.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
